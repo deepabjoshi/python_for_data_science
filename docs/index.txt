@@ -1,0 +1,34 @@
+Here are the python files that contains examples of the things that we wish to do:
+
+argparse: find_new_files.py
+ascii: devnagari.py
+builtins: builtin_functions.py
+ChainMap: learn_dict_iteration.py
+chained comparison: comparisons.py
+chr: devnagari.py
+dictionaries: learn_dicts.py
+dictionary comprehension: learn_dict_iteration.py
+dictionary modification, deletion, popitem: learn_dict_iteration.py
+dictionary sorting, iteration: learn_dict_iteration.py
+documentation strings: Project euler - p5_smallest_multiple.py, my_utils - primes.py
+else in loop: my_utils - primes.py
+enumerate: tic_tac_toe.py
+exceptions: tic_tac_toe.py, learn_exceptions.py
+generators: find_primes.py, learn_generators.py
+itertools: tic_tac_toe.py
+list comprehension: find_primes.py, tic_tac_toe.py
+lists: learn_lists.py
+main: tic_tac_toe.py
+mixed type comparison: comparisons.py
+next: learn_dict_iteration.py
+object oriented programming: tic_tac_toe_oop.py
+ord: devnagari.py
+pathlib: find_new_files.py
+print to stderr: input_output.py, tic_tac_toe.py
+sequence comparison: comparisons.py
+strings: learn_strings.py
+timeit: find_primes.py
+tuples: learn_tuples.py
+unpacking: unpacking.py
+user input: input_output.py, tic_tac_toe.py
+zip: builtin_functions.py, learn_dict_iteration.py

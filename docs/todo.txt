@@ -1,0 +1,38 @@
+Standard Library: 6, 7
+
+Standard Library: 8
+Use defaultdict in code base as per idiomatic python video
+
+Standard Library: 9
+
+https://realpython.com/python-itertools/
+https://docs.python.org/3/howto/functional.html
+Standard Library: 10
+https://www.youtube.com/watch?v=WjJUPxKB164
+https://realpython.com/primer-on-python-decorators/
+
+Standard Library: 11
+
+Standard Library: 13, 14
+
+https://realpython.com/python-testing/
+Standard Library: 26, 27
+https://www.youtube.com/watch?v=7eeEf_rAJds
+https://realpython.com/python-timer/
+
+https://realpython.com/python-logging/
+Standard Library: 16
+
+Standard Library: 19
+
+Standard Library: 20
+
+Standard Library: 21
+
+Standard Library: 23
+
+Standard Library: 24, 29
+
+Standard Library: 22
+
+Check out Raymond Hettinger videos on youtube
