@@ -1,0 +1,65 @@
+Python tutorial:
+https://docs.python.org/3/tutorial/
+
+List comprehensions:
+https://realpython.com/list-comprehension-python/
+
+Generators:
+https://realpython.com/introduction-to-python-generators/
+
+Zip:
+https://realpython.com/python-zip-function/
+
+Timeit:
+https://www.guru99.com/timeit-python-examples.html
+https://docs.python.org/3/library/timeit.html
+
+Sorting:
+https://realpython.com/python-sort/
+
+Iteration:
+https://realpython.com/iterate-through-dictionary-python/
+https://realpython.com/python-itertools/
+
+Function arguments:
+https://realpython.com/python-kwargs-and-args/#unpacking-with-the-asterisk-operators
+
+How-tos (contains sorting, function programming, unicode etc.):
+https://docs.python.org/3/howto/index.html
+
+Documentation for all detailed questions:
+https://docs.python.org/3/index.html
+
+Idiomatic python:
+https://www.youtube.com/watch?v=OSGv2VnC0go
+
+Virtual environments:
+https://realpython.com/python-virtual-environments-a-primer/
+https://virtualenv.pypa.io/en/latest/
+
+Data analysis with Python
+Freecodecamp - https://www.freecodecamp.org/news/learn-data-analysis-with-python-course/
+https://www.hackerearth.com/practice/machine-learning/data-manipulation-visualisation-r-python/tutorial-data-manipulation-numpy-pandas-python/tutorial/
+
+Numpy:
+https://numpy.org/doc/1.19/user/absolute_beginners.html
+https://numpy.org/doc/stable/numpy-user.pdf (Chapter 2)
+Random smapling in Numpy: https://numpy.org/doc/1.19/reference/random/index.html#numpyrandom
+Numpy exercises: https://github.com/ine-rmotr-curriculum/freecodecamp-intro-to-numpy/blob/master/3.%20NumPy%20exercises.ipynb
+
+Data science project structure
+One good example structure for a project is in https://drivendata.github.io/cookiecutter-data-science/#cookiecutter-data-science
+https://github.com/drivendata/cookiecutter-data-science
+A similar structure is https://github.com/hundredblocks/ml-powered-applications
+
+Virtual environments
+More info on virtual environments https://towardsdatascience.com/virtual-environments-104c62d48c54
+Virtualenv video https://www.youtube.com/watch?v=N5vscPTWKOk
+
+
+Pandas:
+https://pandas.pydata.org/docs/user_guide/dsintro.html
+
+
+Built-in exceptions:
+https://docs.python.org/3.6/library/exceptions.html
