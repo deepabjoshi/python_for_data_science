@@ -1,0 +1,6 @@
+** Create a new interpreter for the project if you don't need existing one.
+** To add evironment variables, go to interpreter, click on tree icon.
+** If you want to generate requirements.txt, go to the directory and run
+   source venv/bin/activate
+   pip3 freeze > requirements.txt
+   deactivate
