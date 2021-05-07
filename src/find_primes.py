@@ -95,11 +95,11 @@ def using_generator(n):
 # print(using_generator(100))
 
 # Example: timeit
-s = timeit.timeit('sieve_of_eratosthenus(1000000)', number=1, globals=globals())
-p = timeit.timeit('using_primes(1000000)', number=1, globals=globals())
-k = timeit.timeit('using_6k(1000000)', number=1, globals=globals())
-g = timeit.timeit('using_generator(1000000)', number=1, globals=globals())
+s = timeit.timeit('sieve_of_eratosthenus(100000)', number=1, globals=globals())
 print('s =', s)
+p = timeit.timeit('using_primes(100000)', number=1, globals=globals())
 print('p =', p)
+k = timeit.timeit('using_6k(100000)', number=1, globals=globals())
 print('k =', k)
+g = timeit.timeit('using_generator(100000)', number=1, globals=globals())
 print('g =', g)
