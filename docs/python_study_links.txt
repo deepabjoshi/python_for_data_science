@@ -21,6 +21,9 @@ Iteration:
 https://realpython.com/iterate-through-dictionary-python/
 https://realpython.com/python-itertools/
 
+Modules:
+https://realpython.com/python-modules-packages/
+
 Function arguments:
 https://realpython.com/python-kwargs-and-args/#unpacking-with-the-asterisk-operators
 
