@@ -24,10 +24,35 @@ for i in range(0, 17):
     print(i, bin(i), oct(i), hex(i))
 
 
+# bool()
+v = 0
+w = None
+x = 1
+y = 'a'
+z = ''
+print(v, '  bool(v) =', bool(v))
+print(w, '  bool(w) =', bool(w))
+print(x, '  bool(x) =', bool(x))
+print(y, '  bool(y) =', bool(y))
+print(z, '  bool(z) =', bool(z))
+
+
+# callable()
+print('callable(len) =', callable(len))
+print('callable(x) =', callable(x))
+
+
+# chr() and ord()
+print('int(0x2208) =', int(0x2208))
+print('chr(int(0x2208)) =', chr(int(0x2208)))
+print('ord(\'∈\') =', ord('∈'))
+
+
 # dir()
 print('dir():', dir())
 print('dir({}):', dir({}))
 import timeit
+print('dir(timeit):', dir(timeit))
 print('dir() after importing timeit:', dir())
 
 
@@ -36,19 +61,19 @@ q, r = divmod(10, 3)
 print('divmod(10, 3) =', q, r)
 
 
+# enumerate()
+print('m =', m)
+print('enumerate(m) =', enumerate(m))
+print('list(enumerate(m)) =', list(enumerate(m)))
+
+
 # eval()
 x = 1
 print('eval(\'x+1\') =', eval('x + 1'))
 
 
-# globals() and locals()
-a = 10
-b = 20
-def test(p1, p2):
-    c = 30
-    print('globals() =', globals())
-    print('locals() =', locals())
-test(a, b)
+# exec()
+print('exec(\'x + 1\'):', exec('x + 1'))
 
 
 # filter()
@@ -63,11 +88,21 @@ l2 = list(filter(f1, l1))
 l3 = list(filter(None, l1))
 l4 = list(filter(f2, l1))
 l5 = list(filter(lambda x: x > 20, l1))
-print(l1)
-print(l2)
-print(l3)
-print(l4)
-print(l5)
+print('l1 =', l1)
+print('l2 =', l2)
+print('l3 =', l3)
+print('l4 =', l4)
+print('l5 =', l5)
+
+
+# globals() and locals()
+a = 10
+b = 20
+def test(p1, p2):
+    c = 30
+    print('globals() =', globals())
+    print('locals() =', locals())
+test(a, b)
 
 
 # iter(), len()

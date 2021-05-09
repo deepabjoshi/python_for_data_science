@@ -66,3 +66,6 @@ https://pandas.pydata.org/docs/user_guide/dsintro.html
 
 Built-in exceptions:
 https://docs.python.org/3.6/library/exceptions.html
+
+Built-in functions:
+https://docs.python.org/3.6/library/functions.html
