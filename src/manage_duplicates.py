@@ -9,6 +9,7 @@ shutil - for moving or copying files. It might make sense to copy a small part o
 from pathlib import Path
 import argparse
 import shutil
+import sys
 from collections import defaultdict
 
 
@@ -24,11 +25,15 @@ def get_dir_data(dir):
 
 
 def get_dir_data_recursive(dir):
-    files = defaultdict(list)
-    for path in dir.rglob('*'):
-        if path.is_dir():
-            continue
-        files[path.name].append((path.parent, path.stat().st_size))
+    files = []
+    try:
+        files = defaultdict(list)
+        for path in dir.rglob('*'):
+            if path.is_dir():
+                continue
+            files[path.name].append((path.parent, path.stat().st_size))
+    except Exception as e:
+        print("Something went wrong while reading directory: ", e, file=sys.stderr)
     return files
 
 
