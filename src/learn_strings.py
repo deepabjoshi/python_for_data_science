@@ -100,3 +100,7 @@ riddle = """
 %d
 """ % (1, 'race', 2, 12, 111, 2112)
 print(riddle)
+
+print('abcd abcd.isidentifier() =', 'abcd'.isidentifier())
+print('_x1 _x1.isidentifier() =', '_x1'.isidentifier())
+print('#$ #$.isidentifier() =', '#$'.isidentifier())
