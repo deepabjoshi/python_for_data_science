@@ -69,3 +69,8 @@ https://docs.python.org/3.6/library/exceptions.html
 
 Built-in functions:
 https://docs.python.org/3.6/library/functions.html
+
+
+Standard library:
+difflib - comparing files, sequences etc. - https://docs.python.org/3.6/library/difflib.html
+readline - gnu readline interface - https://docs.python.org/3.6/library/readline.html

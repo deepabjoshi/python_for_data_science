@@ -1,3 +1,5 @@
+# For exception hierarchy, look at https://docs.python.org/3.6/library/exceptions.html
+
 class B(Exception):
     pass
 
@@ -7,8 +9,10 @@ class C(B):
 class D(C):
     pass
 
+
 for cls in [B, C, D]:
     try:
+        print(cls, dir(cls))
         raise cls()
     except D:
         print("D")

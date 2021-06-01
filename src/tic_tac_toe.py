@@ -3,6 +3,7 @@ import sys
 
 
 def initialize_game(size):
+    # Example: list comprehension
     return [[0 for i in range(size)] for i in range(size)]
 
 

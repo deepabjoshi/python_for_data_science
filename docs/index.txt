@@ -31,11 +31,14 @@ object oriented programming: tic_tac_toe_oop.py
 ord: devnagari.py
 pathlib: find_new_files.py
 print to stderr: input_output.py, tic_tac_toe.py
+regular expressions: learn_reg_exp.py
 sequence comparison: comparisons.py
 set: builtin_types.py
 strings: learn_strings.py
+textwrap: text_wrapping.py
 timeit: find_primes.py
 tuples: learn_tuples.py
+unicode: learn_unicode.py
 unpacking: unpacking.py
 user input: input_output.py, tic_tac_toe.py
 zip: builtin_functions.py, learn_dict_iteration.py

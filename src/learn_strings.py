@@ -86,6 +86,7 @@ t = str.maketrans(intab, outtab)
 print("'hello world'.translate(t) =", 'hello world'.translate(t))
 
 # String formatting
+# More on formatting at https://docs.python.org/3.6/library/string.html
 print('{0}, {1}, {2}'.format('a', 'b', 'c'))
 print('{0}{1}{0}'.format('und', 'ergro'))
 print('x = {x}, y = {y}'.format(x=10, y=20))
@@ -104,3 +105,9 @@ print(riddle)
 print('abcd abcd.isidentifier() =', 'abcd'.isidentifier())
 print('_x1 _x1.isidentifier() =', '_x1'.isidentifier())
 print('#$ #$.isidentifier() =', '#$'.isidentifier())
+print()
+
+
+# helper functions
+import string
+print("string.capwords('hello world!') =", string.capwords('hello world!'))
