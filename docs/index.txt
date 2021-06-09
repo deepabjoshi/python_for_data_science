@@ -4,10 +4,12 @@ argparse: find_new_files.py
 ascii: devnagari.py
 bitwise operations: builtin_types.py
 builtins: builtin_functions.py
+calendar: learn_calendar.py
 ChainMap: learn_dict_iteration.py
 chained comparison: comparisons.py
 chr: devnagari.py
 complex: builtin_types.py
+datetime: learn_datetime.py
 dictionaries: learn_dicts.py
 dictionary comprehension: learn_dict_iteration.py
 dictionary modification, deletion, popitem: learn_dict_iteration.py
