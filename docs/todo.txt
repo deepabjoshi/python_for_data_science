@@ -1,19 +1,16 @@
-Standard Library: 6, 7
-
-Standard Library: 8
-Use defaultdict in code base as per idiomatic python video
 
 Standard Library: 9
 
+Standard Library: 10
 https://realpython.com/python-itertools/
 https://docs.python.org/3/howto/functional.html
-Standard Library: 10
 https://www.youtube.com/watch?v=WjJUPxKB164
 https://realpython.com/primer-on-python-decorators/
 
 Standard Library: 11
 
 Standard Library: 13, 14
+Do namedtuple from 8 along with csv in 14
 
 https://realpython.com/python-testing/
 Standard Library: 26, 27

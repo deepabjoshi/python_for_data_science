@@ -11,6 +11,8 @@ chr: devnagari.py
 complex: builtin_types.py
 Counter: learn_collections.py
 datetime: learn_datetime.py
+deque: learn_collections.py
+defaultdict: learn_collections.py
 dictionaries: learn_dicts.py
 dictionary comprehension: learn_dict_iteration.py
 dictionary modification, deletion, popitem: learn_dict_iteration.py
@@ -23,6 +25,8 @@ float: builtin_types.py
 generators: find_primes.py, learn_generators.py
 hashing numeric types: builtin_types.py
 itertools: tic_tac_toe.py
+lambda: builtin_functions.py, learn_calendar.py, dict_iteration.py, directory_browsing.py
+lambda without arguments: learn_collections.py
 list comprehension: find_primes.py, tic_tac_toe.py
 lists: learn_lists.py
 main: tic_tac_toe.py
@@ -32,6 +36,7 @@ modules symbol table: builtin_types.py
 next: learn_dict_iteration.py
 object oriented programming: tic_tac_toe_oop.py
 ord: devnagari.py
+OrderedDict: learn_collections.py
 pathlib: find_new_files.py
 print to stderr: input_output.py, tic_tac_toe.py
 regular expressions: learn_reg_exp.py
