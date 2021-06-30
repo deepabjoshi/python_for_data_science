@@ -70,10 +70,21 @@ https://docs.python.org/3.6/library/exceptions.html
 Built-in functions:
 https://docs.python.org/3.6/library/functions.html
 
+Mathematical functions:
+math - https://docs.python.org/3.6/library/math.html
+cmath - https://docs.python.org/3.6/library/cmath.html
+decimal fixed and floating point arithmetic - https://docs.python.org/3.6/library/decimal.html
+statistics - https://docs.python.org/3.6/library/statistics.html
+
 
 Standard library part not done, but links if needed:
 difflib - comparing files, sequences etc. - https://docs.python.org/3.6/library/difflib.html
 readline - gnu readline interface - https://docs.python.org/3.6/library/readline.html
 struct - binary data handling, conversion between C and Python - https://docs.python.org/3.6/library/struct.html
 codecs - encoding/decoding - https://docs.python.org/3.6/library/codecs.html
-UserDict, UserList and UserString - https://docs.python.org/3.6/library/collections.html#
+UserDict, UserList and UserString - https://docs.python.org/3.6/library/collections.html
+Data types - weakref, types, reprlib - https://docs.python.org/3.6/library/datatypes.html
+bisection - https://docs.python.org/3.6/library/bisect.html
+arrays - compact arrays - https://docs.python.org/3.6/library/array.html
+pretty print - pprint - https://docs.python.org/3.6/library/pprint.html
+enum - https://docs.python.org/3.6/library/enum.html

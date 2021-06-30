@@ -1,5 +1,6 @@
 from collections import *
 import re
+import heapq
 
 # ChainMap
 d1 = {'a': 1, 'c': 2}
@@ -172,6 +173,35 @@ del o['1']
 print(o)
 o['1'] = 100
 print(o)
+print()
 
 # Not doing UserDict, UserList and UserString right now.
 
+
+# heapq
+h1 = [1, 2, 2, 5, 6, 9, 10]
+heapq.heapify(h1)
+print(h1)
+heapq.heappush(h1, 8)
+print(h1)
+i = heapq.heappop(h1)
+print(i, h1)
+h2 = h1.copy()
+i = heapq.heappushpop(h1, 1)
+print(i, h1)
+i = heapq.heapreplace(h2, 1)
+print(i, h2)
+print(heapq.nsmallest(2, h1))
+print(heapq.nlargest(3, h1))
+for i in heapq.merge([1, 8, 9], [2, 5, 6]):
+    print(i)
+h3 = []
+heapq.heappush(h3, (2, 'j'))
+heapq.heappush(h3, (1, 'm'))
+heapq.heappush(h3, (3, 'p'))
+heapq.heappush(h3, (4, 'a'))
+print(heapq.nsmallest(2, h3))
+print(heapq.nsmallest(2, h3, key=lambda x: x[0]))
+print(heapq.nsmallest(2, h3, key=lambda x: x[1]))
+
+# Not doing bisection, arrays
