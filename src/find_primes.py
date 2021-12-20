@@ -53,7 +53,6 @@ def using_primes(n):
     return primes
 
 
-
 def using_6k(n):
     if n < 2:
         return []
