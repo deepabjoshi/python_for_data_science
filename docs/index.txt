@@ -4,6 +4,7 @@ argparse: find_new_files.py
 ascii: devnagari.py
 bitwise operations: builtin_types.py
 builtins: builtin_functions.py
+cache: functools_examples.py
 calendar: learn_calendar.py
 ChainMap: learn_collections.py, learn_dict_iteration.py
 chained comparison: comparisons.py
@@ -37,10 +38,13 @@ modules: ../python_utils directory
 modules symbol table: builtin_types.py
 next: learn_dict_iteration.py
 object oriented programming: tic_tac_toe_oop.py
+operators: https://docs.python.org/3.9/library/operator.html
 ord: devnagari.py
 OrderedDict: learn_collections.py, Project euler - p31_coin_sums.py
 pathlib: find_new_files.py
+partial: functools_examples.py
 print to stderr: input_output.py, tic_tac_toe.py
+reduce: functools_examples.py
 regular expressions: learn_reg_exp.py
 sequence comparison: comparisons.py
 set: builtin_types.py

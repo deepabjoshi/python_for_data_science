@@ -88,3 +88,4 @@ bisection - https://docs.python.org/3.6/library/bisect.html
 arrays - compact arrays - https://docs.python.org/3.6/library/array.html
 pretty print - pprint - https://docs.python.org/3.6/library/pprint.html
 enum - https://docs.python.org/3.6/library/enum.html
+graphlib - https://docs.python.org/3.9/library/graphlib.html
