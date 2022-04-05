@@ -88,4 +88,11 @@ bisection - https://docs.python.org/3.6/library/bisect.html
 arrays - compact arrays - https://docs.python.org/3.6/library/array.html
 pretty print - pprint - https://docs.python.org/3.6/library/pprint.html
 enum - https://docs.python.org/3.6/library/enum.html
-graphlib - https://docs.python.org/3.9/library/graphlib.html
+graphlib - representing graphs - https://docs.python.org/3.9/library/graphlib.html
+fileinput - iterating over multiple files - https://docs.python.org/3.9/library/fileinput.html
+linecache - get any line from souce file - https://docs.python.org/3.9/library/linecache.html
+shutil - high level file operations - https://docs.python.org/3.9/library/shutil.html
+filecmp - file and directory comparisons - https://docs.python.org/3.9/library/shutil.html
+tempfile - temporary files and directories - https://docs.python.org/3.9/library/tempfile.html
+glob - pathname pattern expansion - https://docs.python.org/3.9/library/glob.html
+fnmatch - filename pattern matching - https://docs.python.org/3.9/library/fnmatch.html
