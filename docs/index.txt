@@ -4,6 +4,7 @@ argparse: find_new_files.py
 ascii: devnagari.py
 bitwise operations: builtin_types.py
 builtins: builtin_functions.py
+bz2 - data_compression_examples.py
 cache: functools_examples.py
 calendar: learn_calendar.py
 ChainMap: learn_collections.py, learn_dict_iteration.py
@@ -25,6 +26,7 @@ enumerate: tic_tac_toe.py
 exceptions: tic_tac_toe.py, learn_exceptions.py
 float: builtin_types.py
 generators: find_primes.py, learn_generators.py
+gzip - data_compression_examples.py
 hashing numeric types: builtin_types.py
 heapq: learn_collections.py
 itertools: tic_tac_toe.py, itertools_examples.py
