@@ -46,6 +46,7 @@ OrderedDict: learn_collections.py, Project euler - p31_coin_sums.py
 pathlib: find_new_files.py, path_examples.py
 partial: functools_examples.py
 print to stderr: input_output.py, tic_tac_toe.py
+random: learn_random.py
 reduce: functools_examples.py
 regular expressions: learn_reg_exp.py
 sequence comparison: comparisons.py
